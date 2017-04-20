@@ -94,4 +94,11 @@ project/plugins/project/
 *.class
 *.log
 
+### Development env ###
+deploy/
+.DS_Store
+
+### Ignore akka config files
+src/main/resources/application*
+
 # End of https://www.gitignore.io/api/sbt,scala,maven,intellij

@@ -1,0 +1,4 @@
+# Indicate one load balancer per line with format: "peer_id ip port"
+# NOTE: When running the system in a local machine, 
+# make sure that all peers have the localhost ip (127.0.0.1)
+1000 127.0.0.1 50000
